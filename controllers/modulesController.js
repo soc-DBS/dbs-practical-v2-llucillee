@@ -1,5 +1,5 @@
 const { EMPTY_RESULT_ERROR, UNIQUE_VIOLATION_ERROR, DUPLICATE_TABLE_ERROR } = require('../errors');
-const modulesModel = require('../models/modules');
+const modulesModel = require('../models/modules.js');
 
 module.exports.create = function (req, res) {
     const code = req.body.code;
